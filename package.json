@@ -1,0 +1,19 @@
+{
+  "name": "devops-console",
+  "version": "0.0.1",
+  "description": "DevOps interface for managing a Docker/Coreos PaaS",
+  "private": true,
+  "repository": "",
+  "author": {
+    "name": "Jean-Sébastien Tremblay",
+    "email": "jeansebtr@xpensia.com",
+    "url": "http://blog.jeansebtr.com/"
+  },
+  "license": "BSD",
+  "readmeFilename": "README.md",
+  "dependencies": {
+    "express": "~3.3.5",
+    "mongoose": "~3.6.16",
+    "bcrypt": "~0.7.6"
+  }
+}
