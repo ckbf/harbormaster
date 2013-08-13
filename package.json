@@ -1,9 +1,11 @@
 {
-  "name": "devops-console",
-  "version": "0.0.1",
+  "name": "harbormaster",
+  "version": "0.0.0",
   "description": "DevOps interface for managing a Docker/Coreos PaaS",
-  "private": true,
-  "repository": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xpensia/harbormaster.git"
+  },
   "author": {
     "name": "Jean-Sébastien Tremblay",
     "email": "jeansebtr@xpensia.com",
@@ -14,6 +16,8 @@
   "dependencies": {
     "express": "~3.3.5",
     "mongoose": "~3.6.16",
-    "bcrypt": "~0.7.6"
+    "bcrypt": "~0.7.6",
+    "async": "~0.2.9",
+    "ejs": "~0.8.4"
   }
 }
